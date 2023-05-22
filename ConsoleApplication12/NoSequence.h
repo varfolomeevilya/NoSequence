@@ -6,7 +6,7 @@ private:
 	bool init;
 	int prevEl;
 	int counter;
-	vector<int>list;
+	std::vector<int>list;
 public:
 	NoSequence(): init {false}, prevEl{0}{}
 	NoSequence();
